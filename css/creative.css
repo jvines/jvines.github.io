@@ -40,6 +40,10 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+.portrait {
+  border-radius: 50%;
+}
+
 .bg-primary {
   background-color: #F05F40 !important; }
 
