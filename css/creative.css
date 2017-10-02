@@ -44,10 +44,6 @@ p {
   margin-bottom: 20px;
 }
 
-.circular--portrait {
-  border-radius: 50%;
-}
-
 .bg-primary {
   background-color: #F05F40 !important;
 }
