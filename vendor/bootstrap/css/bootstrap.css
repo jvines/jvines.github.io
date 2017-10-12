@@ -7952,6 +7952,26 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 
+/* TABLET/NETBOOK */
+@media only screen and (min-width: 768px) {
+  body {
+
+  }
+
+  /* Sidebar */
+  .sidebar{
+   padding-left: 20px;
+   border-left: 1px solid #f1f1f1;
+ }
+ /* COLUMN GRID */
+ .g1,.g2,.g3 {display:inline; float: left}
+
+ /* 2 COLUMN GRID */
+ .g1 {width:48.0%}
+ .g2 {width:48.0%}
+ .g3 {width:98.0%}
+}
+
 .emerald > span {
   background-color: #2ecc71;
 
