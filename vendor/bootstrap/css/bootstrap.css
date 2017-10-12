@@ -7945,6 +7945,13 @@ a.text-dark:focus, a.text-dark:hover {
   .g3 {width:98.0%}
 }
 
+@media only screen and (min-width: 1280px) {
+  /* DESKTOP */
+  body {
+
+  }
+}
+
 /* Meters */
 .meter {
   height: 24px;  /* Can be anything */
