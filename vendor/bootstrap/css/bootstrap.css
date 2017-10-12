@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
 @media print {
   *, *::before, *::after {
     text-shadow: none !important;
@@ -7916,6 +7919,30 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important;
+}
+
+/* LANDSCAPE TABLET/NETBOOK/LAPTOP */
+@media only screen and (min-width: 1024px) {
+  body {
+
+  }
+  .etabs >li span{
+    display: inline;
+  }
+  .tab a i{
+  font-size: 16px;
+  margin-right: 6px;
+}
+  .tab a{
+    padding: 10px 40px 10px 40px;
+  }
+.tab a.active{
+  padding-top: 20px;
+}
+  /* 3 COLUMN GRID */
+  .g1 {width:31.333%}
+  .g2 {width:64.667%;}
+  .g3 {width:98.0%}
 }
 
 /* Meters */
