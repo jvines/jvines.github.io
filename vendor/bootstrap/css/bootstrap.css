@@ -86,7 +86,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #fff;;
 }
 
 [tabindex="-1"]:focus {
@@ -7970,8 +7970,8 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
  .g1,.g2,.g3 {display:inline; float: left}
 
  /* 2 COLUMN GRID */
- .g1 {width:48.0%}
- .g2 {width:48.0%}
+ .g1 {width:32.0%}
+ .g2 {width:70.0%}
  .g3 {width:98.0%}
 }
 
@@ -8164,7 +8164,9 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
   clear: both;
 }
 
-
+.clearfix {
+    background-color: #007bff !important;
+}
 
 
 /*# sourceMappingURL=bootstrap.css.map */
