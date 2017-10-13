@@ -8,6 +8,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 */
+
 @media print {
   *, *::before, *::after {
     text-shadow: none !important;
@@ -4056,12 +4057,12 @@ tbody.collapse.show {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem;
 }
-
+/*
 .progress-bar-animated {
   -webkit-animation: progress-bar-stripes 1s linear infinite;
   animation: progress-bar-stripes 1s linear infinite;
 }
-
+*/
 .media {
   display: -ms-flexbox;
   display: flex;
