@@ -8149,6 +8149,21 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
   background-color: #ec971f;
 }
 
+/* WorkExperience */
+.work li{
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 2em;
+}
+.work li span{
+  float: right;
+}
+.work li h5{
+  float: left;
+}
+.work li p{
+  clear: both;
+}
+
 
 
 
