@@ -8005,7 +8005,7 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   background-image:
-  -webkit-gradient(linear, 0 0, 100% 100%,
+  -webkit-gradient(linear, 0 50, 100% 100%,
     color-stop(.25, rgba(255, 255, 255, .2)),
     color-stop(.25, transparent), color-stop(.5, transparent),
     color-stop(.5, rgba(255, 255, 255, .2)),
@@ -8063,32 +8063,6 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 .carrot > span {
   background-color: #e67e22;
 
-}
-.wisteria > span{
-  background-color: #8e44ad;
-}
-.sunflower > span{
-  background-color: #f1c40f;
-}
-.midnight > span{
-  background-color: #2c3e50;
-}
-.pomengrate > span{
-  background-color: #c0392b;
-}
-.asbestos > span{
-  background-color: #7f8c8d;
-}
-.nostripes > span > span, .nostripes > span:after {
-  -webkit-animation: none;
-  background-image: none;
-}
-
-.emerald > span {
-  background-color: #2ecc71;
-}
-.carrot > span {
-  background-color: #e67e22;
 }
 .wisteria > span{
   background-color: #8e44ad;
