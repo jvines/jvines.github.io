@@ -7974,12 +7974,9 @@ a.text-dark:focus, a.text-dark:hover {
 
 .emerald > span {
   background-color: #2ecc71;
-
 }
-
 .carrot > span {
   background-color: #e67e22;
-
 }
 .wisteria > span{
   background-color: #8e44ad;
@@ -7997,7 +7994,7 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: #7f8c8d;
 }
 .nostripes > span > span, .nostripes > span:after {
-  -webkit-animation: none;
+/*  -webkit-animation: none; */
   background-image: none;
 }
 
@@ -8017,7 +8014,6 @@ a.text-dark:focus, a.text-dark:hover {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-
 
   position: relative;
   overflow: hidden;
