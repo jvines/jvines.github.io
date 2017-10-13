@@ -48,6 +48,10 @@ p {
   background-color: #F05F40 !important;
 }
 
+.bg-resume {
+  background-color: #007bff !important;
+}
+
 .bg-dark {
   color: white;
   background-color: #222222 !important;
