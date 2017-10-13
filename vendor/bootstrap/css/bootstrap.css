@@ -7921,6 +7921,8 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important;
 }
 
+span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",Times,serif;font-style:italic;font-size:110%;line-height:0;position:relative;vertical-align:baseline} /* Best available ampersand */
+
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
 @media only screen and (min-width: 1024px) {
   body {
@@ -7970,6 +7972,48 @@ a.text-dark:focus, a.text-dark:hover {
  .g1 {width:48.0%}
  .g2 {width:48.0%}
  .g3 {width:98.0%}
+}
+
+.meter > span:after, .animate > span > span {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image:
+  -webkit-gradient(linear, 0 0, 100% 100%,
+    color-stop(.25, rgba(255, 255, 255, .2)),
+    color-stop(.25, transparent), color-stop(.5, transparent),
+    color-stop(.5, rgba(255, 255, 255, .2)),
+    color-stop(.75, rgba(255, 255, 255, .2)),
+    color-stop(.75, transparent), to(transparent)
+    );
+  background-image:
+  -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent
+    );
+  z-index: 1;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  -webkit-animation: move 2s cubic-bezier(0.26, 0.08, 0.76, 1) infinite;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
 }
 
 .emerald > span {
@@ -8022,47 +8066,7 @@ a.text-dark:focus, a.text-dark:hover {
   margin-left: 4px;
   color: #fff;
 }
-.meter > span:after, .animate > span > span {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  background-image:
-  -webkit-gradient(linear, 0 0, 100% 100%,
-    color-stop(.25, rgba(255, 255, 255, .2)),
-    color-stop(.25, transparent), color-stop(.5, transparent),
-    color-stop(.5, rgba(255, 255, 255, .2)),
-    color-stop(.75, rgba(255, 255, 255, .2)),
-    color-stop(.75, transparent), to(transparent)
-    );
-  background-image:
-  -moz-linear-gradient(
-    -45deg,
-    rgba(255, 255, 255, .2) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, .2) 50%,
-    rgba(255, 255, 255, .2) 75%,
-    transparent 75%,
-    transparent
-    );
-  z-index: 1;
-  -webkit-background-size: 50px 50px;
-  -moz-background-size: 50px 50px;
-  -webkit-animation: move 2s linear infinite;
-  -webkit-border-top-right-radius: 8px;
-  -webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-topright: 8px;
-  -moz-border-radius-bottomright: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-  -webkit-border-top-left-radius: 20px;
-  -webkit-border-bottom-left-radius: 20px;
-  -moz-border-radius-topleft: 20px;
-  -moz-border-radius-bottomleft: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  overflow: hidden;
-}
+
 
 
 /*# sourceMappingURL=bootstrap.css.map */
