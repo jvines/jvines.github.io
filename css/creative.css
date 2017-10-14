@@ -49,8 +49,12 @@ p {
 }
 
 .bg-resume {
-  background-color: #2b313a !important;
+  background-color: #222930 !important;
   padding: 50px 150px;
+}
+
+.bg-li {
+  padding: 0px 20px;
 }
 
 .bg-dark {
