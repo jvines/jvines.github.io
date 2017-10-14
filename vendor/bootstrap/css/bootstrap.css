@@ -8057,12 +8057,12 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 
 .emerald > span {
   background-color: #2ecc71;
-
 }
-
+.silver-aqua > span {
+  background-color: #7dcbce;
+}
 .carrot > span {
   background-color: #e67e22;
-
 }
 .wisteria > span{
   background-color: #8e44ad;
@@ -8078,6 +8078,9 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 }
 .asbestos > span{
   background-color: #7f8c8d;
+}
+.aqua > span{
+  background-color: #0613c9;
 }
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none;
