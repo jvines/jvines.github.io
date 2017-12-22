@@ -9,6 +9,6 @@ gems: [jekyll-paginate,jekyll-seo-tag,jekyll-sitemap]
 paginate: 6
 google_analytics: 'UA-XXXXXXX-X'
 remote_theme: Open-SL/Jekyll-Modern-Blog
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
