@@ -16,7 +16,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #222930;
+  border-color: #221e1f;
 }
 
 hr.light {
@@ -45,11 +45,11 @@ p {
 }
 
 .bg-primary {
-  background-color: #222930 !important;
+  background-color: #221e1f !important;
 }
 
 .bg-resume {
-  background-color: #222930 !important;
+  background-color: #221e1f !important;
   padding: 1% 10%;
 }
 
@@ -393,7 +393,7 @@ header.masthead .header-content .header-content-inner p {
 .btn-primary {
   color: white;
   border-color: #F05F40;
-  background-color: #222930;
+  background-color: #221e1f;
 }
 
 .btn-primary.focus, .btn-primary:focus {
