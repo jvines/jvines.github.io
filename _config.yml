@@ -3,7 +3,7 @@ title: JVines Blog
 description: The world through a young astrophycisist eyes.
 keywords: Modern, Blogging, Fun, Science, Education
 author: Jose Vines
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jvines.cl" # the base hostname & protocol for your site
 gems: [jekyll-paginate,jekyll-seo-tag,jekyll-sitemap]
 paginate: 6
