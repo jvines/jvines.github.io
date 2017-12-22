@@ -1,482 +1,90 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js">
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>JVines Experience</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/creative.css" rel="stylesheet">
-
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}"/>
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/fonts/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/body.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/card.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/pattern.css"/>
+    <!--[if IE]>
+    <script type="text/javascript" src="js/vendors/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        }
+    </script>
 </head>
+<body class="demo-1">
+<div class="container">
+    <header class="codrops-header">
+      <h1>JVines Blog <span>Circular clip</span></h1>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Sky High</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Let's Talk!</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="blog.html">Blog</a>
-            <!-- ADD BLOG ENTRY change placeholder for the HTML file containing the blog! -->
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="masthead">
-    <div class="header-content">
-      <div class="header-content-inner">
-        <img class="circular--portrait" src="img/portfolio/portrait.jpg" />
-        <h1 id="homeHeading">JVines Experience</h1>
-        <hr>
-        <p>Astronomy student and amateur photographer located in Chile for the time. <br> Come and see the world through my eyes!</p>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About me</a>
-      </div>
-    </div>
-  </header>
-
-  <section class="bg-primary" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">About me!</h2>
-          <hr class="light">
-          <p class="text-faded">
-            I'm Jos&eacute; Vines, an astronomy student, hobby photographer and a computer science enthusiast! <br>
-            Ever since I can remember I have been amazed by the stars and space and have always wanted to study and learn from them, and now I'm living my dream, studying astronomy,
-            but even though I am living the dream, studying what I've always wanted, it wasn't enough for me, so I got into the only art form I'm capable of doing: Photography. <br>
-            It began as an attempt to do astrophotography, but since I don't have any equipment to do so, I decided to do regular photography! So I began taking shots of landscapes and cityscapes
-            whenever I travelled, and then I began taking pictures of smaller stuff like flowers and such, going into bokeh and macro and I quickly realized how each photograph is a story to tell,
-            a story that didn't exist until I took the photo. And so began my storytelling journey which I want to share with the world, the vision of the world through my own eyes.
-          </p>
-          <a class="btn btn-default btn-xl js-scroll-trigger" href="wip.html">My Blog!</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Services section -->
-  <!--
-  <section id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">At Your Service</h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-            <h3>Sturdy Templates</h3>
-            <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-            <h3>Ready to Ship</h3>
-            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            <h3>Up to Date</h3>
-            <p class="text-muted">We update dependencies to keep things fresh.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box">
-            <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-            <h3>Made with Love</h3>
-            <p class="text-muted">You have to make your websites with love these days!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
-
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid">
-      <div class="row no-gutter popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Architecture
-                  </div>
-                  <div class="project-name">
-                    Tower Bridge
-                  </div>
+    </header>
+    <div class="content">
+        <!-- trianglify pattern container -->
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            {% for post in paginator.posts %}
+            <div class="card" data-id="{{ post.id }}">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="{{ post.id }}-clip-path">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                               xlink:href="{{ site.baseurl }}/{{ post.image }}"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">{{ post.title }}</h2>
+                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="{{ site.baseurl }}/{{ post.avatar }}"/>
+                                <span class="meta__author">{{ post.author }}</span>
+                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                            </div>
+                            {{ post.content }}
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </a>
+            </div>
+            {% endfor %}
+            <!-- /cards -->
+            {% if paginator.previous_page or paginator.next_page %}
+                {% include pagination.html %}
+            {% endif %}
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Landscape
-                  </div>
-                  <div class="project-name">
-                    Way to Nature
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Landscape
-                  </div>
-                  <div class="project-name">
-                    Over the Clouds
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Cityscape
-                  </div>
-                  <div class="project-name">
-                    Contrast City
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Urban
-                  </div>
-                  <div class="project-name">
-                    HMS Belfast
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/portfolio-6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/thumbnail-6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Mountainscape
-                  </div>
-                  <div class="project-name">
-                    Towering Light
-                  </div>
-                </div>
-              </div>
-            </a>
-        </div>
-      </div>
+
     </div>
-  </section>
-
-  <!-- <div class="call-to-action bg-dark">
-    <div class="container text-center">
-      <h2>Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-    </div>
-  </div> -->
-
-  <!-- Resume Tab Data -->
-  <section id="resume" class="bg-resume">
-    <section class="clearfix">
-      <h1 class="text-center text-white">
-        My Resume
-      </h1>
-
-      <div class="g2">
-        <h3 class="text-white text-center">
-                    Work Experience
-                </h3>
-        <ul class="no-list work">
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Teaching assistant
-                        </h5><span class="label label-info">2014-Present</span>
-            <p class="text-faded" class="text-faded">
-              I've been a teaching assistant (TA) for a plethora of courses in my university and outside it: from Introduction to Programming to a Data Visualization Lab in a Data Visualization graduate program in Universidad Catolica.
-            </p>
-          </li>
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Python Programmer
-                        </h5><span class="label label-info">2015-Present</span>
-            <p class="text-faded">
-              Most of my work, either for courses in my university or for individual projects I have been a part of, involve programming, which I have done mostly on the Python Language.
-            </p>
-          </li>
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Astronomy
-                        </h5><span class="label label-info">2016-Present</span>
-            <p class="text-faded">
-              I have been involved in two astronomy projects in my undergraduate career. One of them consisted in analizing radial velocity data for a sample of stars finding sub-stellar companions (i.e. Exoplanets or Binary Star systems) by fitting a Keplerian orbital
-              model to the data. The other project I have been involved with consists of doing deblended photometry on Spitzer-IRAC images to find faint sources in Hubble Space Telescope's images of the same field.
-            </p>
-          </li>
-        </ul>
-        <h3 class="text-white text-center">
-                    Education
-                </h3>
-        <ul class="no-list work">
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Universidad de Chile - Chile
-                        </h5><span class="label label-success">2014-Present</span>
-            <p class="text-faded">
-              I'm currently studying a Bachelor of Science in Astronomy and planning on to moving to a PhD program in the same university next year studying exoplanets.
-            </p>
-          </li>
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Colegio San Pedro Nolasco - Chile
-                        </h5><span class="label label-warning">2000-2013</span>
-            <p class="text-faded">
-              The high school I attended to.
-            </p>
-          </li>
-        </ul>
-        <h3 class="text-white text-center">
-                    Extracurricular Activities
-                </h3>
-        <ul class="no-list work">
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Amateur Photographer
-                        </h5><span class="label label-danger">2017-Till Death</span>
-            <p class="text-faded">
-              I got into photography wanting to take awesome and astonishing astrophotographs! But since I lack the equipment (and funds to buy them) I settled with normal photography haha.
-              I really love breathtaking landscapes, cityscapes, experimenting with bokeh and macro photography, and I'm looking forward to experiment with minimalistic, architecture and portrait photography.
-              <br> I currently own a Sony &alpha;6000 camera and a Samsung Galaxy S8, because you don't always need a fancy camera to take great pictures ;)
-
-            </p>
-          </li>
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Educational Robotics
-                        </h5><span class="label label-danger">2011-Till Death</span>
-            <p class="text-faded">
-              Since high scool I've been interested in Educational Robotics, specifically the Lego Mindstorms robots, and since then I was involved in the First Lego League (FLL) competition until I turned 16. Afterwards when I began studying at my University
-              I got the chance to participate in the FLL competition once again, but this time as a coach. Our major achievement since I joined was to be invited to the Open Invitational Championship in Bath - UK in 2017.
-            </p>
-          </li>
-          <li class="bg-li">
-            <h5 class="text-white text-center">
-                            Science Divulgation (and data viz)
-                        </h5><span class="label label-danger">2017-Till Death</span>
-            <p class="text-faded">
-              One of my duties as a (to-be) scientist is to be able to convey our results to not only our peers, but the general public. This is one of the main reasons for my interest in science divulgation and data visualization, and hence this site; a blog where I'll write about science, my work, data visualization and photography :)
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="g1">
-        <div class="sidebar">
-          <h3 class="text-white text-center">
-                        Skills
-                    </h3>
-          <h5 class="text-white text-center">
-                        Software
-                    </h5>
-          <div class="meter wisteria">
-            <span style="width: 33.3%"><span>Eclipse</span></span>
-          </div>
-          <div class="meter emerald">
-            <span style="width: 90%"><span>Atom</span></span>
-          </div>
-          <div class="meter aqua">
-            <span style="width: 50%"><span>RStudio</span></span>
-          </div>
-          <div class="meter carrot">
-            <span style="width: 33.3%"><span>PyCharm</span></span>
-          </div>
-          <div class="meter emerald">
-            <span style="width: 95%"><span>LaTeX</span></span>
-          </div>
-          <div class="meter pomengrate">
-            <span style="width: 50%"><span>Lightroom</span></span>
-          </div>
-          <div class="meter asbestos">
-            <span style="width: 80%"><span>Linux</span></span>
-          </div>
-          <div class="meter silver-aqua">
-            <span style="width: 90%"><span>OS X</span></span>
-          </div>
-          <div class="meter aqua">
-            <span style="width: 60%"><span>Windows</span></span>
-          </div>
-          <div class="break"></div>
-          <h5 class="text-white text-center">
-                        Concepts
-                    </h5>
-          <div class="meter wisteria">
-            <span style="width: 97%"><span>Structured Programming</span></span>
-          </div>
-          <div class="meter emerald">
-            <span style="width: 80%"><span>Object Oriented Programming</span></span>
-          </div>
-          <div class="meter aqua">
-            <span style="width: 75%"><span>Refactoring</span></span>
-          </div>
-          <div class="meter carrot">
-            <span style="width: 30%"><span>Design Pattern</span></span>
-          </div>
-
-          <div class="break"></div>
-          <h5 class="text-white text-center">
-                        Programming Language
-                    </h5>
-          <div class="meter asbestos">
-            <span style="width: 33.3%"><span>C</span></span>
-          </div>
-          <div class="meter aqua">
-            <span style="width: 20%"><span>C++</span></span>
-          </div>
-          <div class="meter pomengrate">
-            <span style="width: 45%"><span>Java</span></span>
-          </div>
-          <div class="meter wisteria">
-            <span style="width: 20%"><span>R</span></span>
-          </div>
-          <div class="meter sunflower">
-            <span style="width: 95%"><span>Python</span></span>
-          </div>
-          <div class="meter aqua">
-            <span style="width: 40%"><span>Matlab</span></span>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-  <!-- End Resume Tab Data -->
-
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="primary">
-          <p>My contact info and social media!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-facebook-official fa-3x sr-contact"></i>
-          <p>
-            <a href="https://www.facebook.com/JIVines">My Facebook</a>
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-          <p>
-            <a href="mailto:jose.vines.l@gmail.com">jose.vines.l@gmail.com</a>
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-github fa-3x sr-contact"></i>
-          <p>
-            <a href="https://github.com/jvines">My GitHub account</a>
-          </p>
-        </div>
-      </div>
-      <div class="row" style="padding-top: 3%">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-twitter fa-3x sr-contact"></i>
-          <p>
-            <a href="https://twitter.com/Charun310">Follow me on Twitter</a>
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-instagram fa-3x sr-contact"></i>
-          <p>
-            <a href="https://www.instagram.com/jayvains/">Follow me on Instagram</a>
-          </p>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-500px fa-3x sr-contact"></i>
-          <p>
-            <a href="https://500px.com/jvines">Follow me on 500px</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
-
+    <!-- /container -->
+</div>
+<!-- JS -->
+<script src="{{ site.baseurl }}/js/vendors/trianglify.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/TweenMax.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/ScrollToPlugin.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendors/cash.min.js"></script>
+<script src="{{ site.baseurl }}/js/Card-circle.js"></script>
+<script src="{{ site.baseurl }}/js/modern-blog.js"></script>
 </body>
-
 </html>
