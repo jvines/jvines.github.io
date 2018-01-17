@@ -6320,6 +6320,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .p-0 {
   padding: 0 !important;
+  background-color: #242629;
 }
 
 .pt-0 {
