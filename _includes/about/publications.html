@@ -1,0 +1,14 @@
+<div class="col mt-4">
+  <h2 class="mb-3">Publications</h2>
+  <div class="publications-body">
+    {% for item in site.data.publications %}
+      <div class="publications-item">
+        <div class="content">
+          <h2>{{ item.title }}</h2>
+          <h6 class="date">{{ item.date }}</h6>
+          <a href='{{ item.link }}'> ADS Link </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

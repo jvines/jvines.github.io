@@ -1,0 +1,7 @@
+# - name: Photoshop
+#   percentage: 30
+#   color: info
+
+- name: Lightroom
+  percentage: 40
+  color: success

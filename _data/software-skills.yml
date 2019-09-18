@@ -1,0 +1,19 @@
+- name: Atom
+  percentage: 100
+  color: success
+
+- name: LaTeX
+  percentage: 100
+  color: dark
+
+- name: OS X
+  percentage: 90
+  color: primary
+
+- name: Linux
+  percentage: 80
+  color: danger
+
+- name: git
+  percentage: 90
+  color: dark

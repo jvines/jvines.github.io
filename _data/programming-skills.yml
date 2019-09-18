@@ -1,0 +1,23 @@
+- name: Python
+  percentage: 100
+  color: warning
+
+- name: Java
+  percentage: 40
+  color: danger
+
+- name: C
+  percentage: 30
+  color: secondary
+
+- name: C++
+  percentage: 40
+  color: primary
+
+- name: C#
+  percentage: 40
+  color: info
+
+- name: Matlab
+  percentage: 35
+  color: dark
